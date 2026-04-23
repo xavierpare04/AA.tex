@@ -1,14 +1,35 @@
 \documentclass{article}
-\usepackage[utf8]{inputenc}
-\usepackage[catalan]{babel}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{amssymb}
 
-\title{El meu document}
-\author{El teu nom}
-\date{\today}
+\title{Aparcament automàtic}
+\author{David Elias, Álvaro Noya, Xavier Parellada, Guillem Sala}
+\date{March 2026}
 
 \begin{document}
 \maketitle
 
-Hola món! Aquest és el meu primer document.
+\section{Definicions}
+\begin{enumerate}
+    \item \textbf{Pas:} Anomenem pas $p$ a la parella $p=(R,d)$ formada pel radi $R\in\mathbb{R}\cup[-\infty,\infty]$ i la distància $d\in\mathbb{R}$.
+    \item \textbf{Maniobra:} conjunt de passos. (Segurament ordenats amb un índex?)
+    \item \textbf{Cotxe:} Pensem el cotxe com quatre punts $C:=((a_1,b_1),(a_2,b_2),(a_3,b_3),(a_4,b_4))$, on $a_i,b_i\in R$. La llargada $L$ és la llargada del cotxe ve donada per $L=dist((a_1,b_1),(a_3,b_3))$ i la seva amplada és $l=dist((a_1,b_1),(a_2,b_2))$. 
+    \item \textbf{Centre del cotxe:} baricentre del rectangle cotxe. 
+    \item \textbf{Llargada aparcament:} Llargada aparcament $L_A$. Es considerarà un lloc "aparcable" si $L_A\leq L+x$
+    \item \textbf{Distància mínima $min(L_A)$:}
+    \item \textbf{Distància raonable $L_R$:}
+\end{enumerate}
+
+\section{Moviments del cotxe}
+    \begin{itemize}
+        \item Anar endavant
+        \item Anar endarrere
+        \item Moviment horitzontal
+
+    \end{itemize}
+
+
+\section{Hipòtesis simplificadores}
+
 
 \end{document}
