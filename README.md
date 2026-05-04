@@ -1,2 +1,2 @@
 # aparcament-automatic
-Treball de taller de modelització sobre aparcament automàtic.
+Treball de l'assignatura Taller de modelització sobre aparcament automàtic de cotxes.
